@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Tenis Nike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/output.css" />
+  </head>
+  <body class="w-full h-full overflow-x-hidden">
+    <div
+      class="w-full h-screen bg-slate-300 flex items-center justify-center p-3"
+    >
+      <main
+        class="w-full max-w-4xl bg-white h-[540px] shadow-lg flex flex-col md:flex-row justify-center items-center"
+      >
+        <div class="w-full md:w-1/2 h-full flex items-center justify-center flex-col">
+          <div class="w-full">
+            <h3 class="hidden md:block text-sm ml-4 mt-4 font-bold">
+              Sujeito Programador
+            </h3>
+          </div>
+
+          <div class="w-full h-full flex items-center justify-center group">
+            <div class="mb-2">
+              <h1 class="text-5xl font-bold mb-2 select-none text-center md:text-left">
+                Lançamento<br />
+                <p class="group-hover:animate-floatRight">Nike Air.</p>
+              </h1>
+              <p class="mb-1 group-hover:animate-pulse text-center md:text-left">O tenis do futuro</p>
+              <p class="mb-7 text-center md:text-left">O futuro a um passo do seu alcance!</p>
+              <a href="#"
+              class=" text-center mx-auto table md:text-left md:inline-block md:mx-0 font-bold bg-zinc-800 border-zinc-800 border-2 py-2 px-4 text-white hover:bg-white hover:text-zinc-800 duration-300">Quero conhecer</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 h-full bg-tenis bg-no-repeat bg-cover flex justify-center items-center bg-center">
+            <img src="/src/assets/tenis.png" alt="Lançamento Tenis Nike Air"
+            class="max-w-lg w-11/12 md:w-full object-cover z-30 hover:scale-110 md:hover:scale-125 duration-300 hover:rotate-6">
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
